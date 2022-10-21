@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Windows 98 Experience</title>
+</head>
+<body onload="calculates_time()">
+
+    <div class="intro" id="start-page">
+        <img src="/assets/windows-98-logo.png" alt="">
+    </div>
+
+    <div class="computer-off" id="off-page"></div>
+
+    <div class="desktop" id="desktop-icons">
+        <div class="icon open-popup-by-menu">
+            <img class="desktop-icon-img" src="assets/computer_explorer.png" alt="computer">
+            <p class="desktop-icon-text">My Computer</p>
+        </div>
+        <div class="icon open-popup-by-menu">
+            <img class="desktop-icon-img" src="assets/my-documents.png" alt="directory">
+            <p class="desktop-icon-text">My Documents</p>
+        </div>
+        <div class="icon open-popup-by-menu">
+            <img class="desktop-icon-img" src="assets/internet-explorer.png" alt="internet-explorer">
+            <p class="desktop-icon-text">Internet<br>Explorer</p>
+        </div>
+        <div class="icon open-popup-by-menu">
+            <img class="desktop-icon-img" src="assets/age-of-empires-2-icon.jpg" alt="age-of-empires-II">
+            <p class="desktop-icon-text">Age of Empires II</p>
+        </div>
+    </div>
+
+    <div class="window">
+        <header class="window-header">
+            <span class="window-title">
+                Message
+            </span>
+            <div class="window-close-btn">
+                X
+            </div>
+        </header>
+        <img class="popup-image" src="/assets/msg-error.png" alt="error">
+        <div class="window-content">
+            Website under construction. New features coming soon.
+            <div class="window-button" id="window-btn">
+                OK
+            </div>
+        </div>
+    </div>
+
+    <div class="help-window">
+        <header class="help-window-header">
+            <span class="help-window-title">
+                Thank you!
+            </span>
+            <div class="help-window-close-btn">
+                X
+            </div>
+        </header>
+        <div class="help-window-content">
+            Made by Guilherme Franco.
+            <div class="help-window-button" id="help-window-btn">
+                BET
+            </div>
+        </div>
+    </div>
+
+    <nav class="taskbar">
+        <div class="taskbar-left-side">
+            <div class="drop-wrapper">
+                <a href="#" class="start-button">
+                    <img class="start-icon-img" src="/assets/start-icon.png" alt="start-icon">
+                    <p class="start-button-text">Start</p>
+                </a>
+                <div class="drop-menu">
+                    <div class="menu">
+                        <div class="menu-windows-text-container">
+                            <div class="menu-windows-text">Windows98Experience</div>
+                        </div>
+                        <div class="menu-items">
+
+                            <a href="blue-screen.html">
+                                <div class="menu-item-left">
+                                    <img width="20%" src="/assets/windows_update.png" alt="windows-update-icon">
+                                    <span>Windows Update</span>
+                                </div>
+                                <span></span>
+                            </a>
+
+                            <hr class="start-menu-divisor">
+
+                            <a class="start-menu_programs-item" href="#">
+                                <div class="menu-item-left">
+                                    <img width="20%" src="/assets/programs.png" alt="programs-icon">
+                                    <span><u>P</u>rograms</span>
+                                </div>
+                                <span>&#9654</span>
+                                <div class="programs-menu">
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="15%" src="/assets/freecell.png" alt="programs-icon">
+                                            <span>FreeCell</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="15%" src="/assets/minesweeper.png" alt="programs-icon">
+                                            <span>Minesweeper</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="15%" src="/assets/paint.png" alt="programs-icon">
+                                            <span>Paint</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="15%" src="/assets/the-sims.png" alt="programs-icon">
+                                            <span>The Sims</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="15%" src="/assets/diablo.jpg" alt="programs-icon">
+                                            <span>Diablo</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="15%" src="/assets/age-of-empires-2-icon.jpg" alt="age-of-empires-ii-icon">
+                                            <span>Age Of Empires II</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </a> 
+                            <a class="start-menu_documents-item" href="#">
+                                <div class="menu-item-left">
+                                    <img width="20%" src="/assets/my-documents.png" alt="my-documents-icon">
+                                    <span><u>D</u>ocuments</span> 
+                                </div>
+                                <span>&#9654</span>
+                                <div class="documents-menu">
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="10%" src="/assets/notepad.png" alt="notepad-icon">
+                                            <span>passwords</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="10%" src="/assets/notepad.png" alt="notepad-icon">
+                                            <span>the sims cheatcodes</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="10%" src="/assets/notepad.png" alt="notepad-icon">
+                                            <span>html css js full guide</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="10%" src="/assets/notepad.png" alt="notepad-icon">
+                                            <span>how to install windows xp</span>
+                                        </div>                                        
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="10%" src="/assets/notepad.png" alt="notepad-icon">
+                                            <span>personal notes</span>
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="10%" src="/assets/notepad.png" alt="notepad-icon">
+                                            <span>quicksort</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                    <a class="open-popup-by-menu" href="#">
+                                        <div class="menu-item-left">
+                                            <img width="10%" src="/assets/notepad.png" alt="notepad-icon">
+                                            <span>daft punk songs tier list</span> 
+                                        </div>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </a> 
+                            <a class="open-help-popup" href="#">
+                                <div class="menu-item-left">
+                                    <img width="25%" src="/assets/help.png" alt="help-icon">
+                                    <span><u>H</u>elp</span>
+                                </div>
+                                <span></span>
+                            </a>
+                            <hr class="start-menu-divisor">
+                            <a class="shutdown-btn" href="#">
+                                <div class="menu-item-left">
+                                    <img width="25%" src="/assets/shut_down.png" alt="shut-down-icon">
+                                    <span>Sh<u>u</u>t Down...</span> 
+                                </div>
+                                <span></span>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="taskbar-divider">
+
+            </div>
+            <div class="open-window" id="program-taskbar" >
+                Message
+            </div>
+            <div class="open-window" id="program-help-taskbar" >
+                Thank you!
+            </div>
+        </div>
+        <div class="taskbar-right-side" >
+            <p id="current-time"></p>
+        </div>
+    </nav>
+    <script src="scripts.js"></script>
+</body>
+</html>
