@@ -1,6 +1,6 @@
 @font-face {
     font-family: windows-98-font;
-    src: url("fonts/Windows\ Regular.ttf");
+    src: url("../fonts/Windows\ Regular.ttf");
 }
 
 html, body {
@@ -21,7 +21,7 @@ html, body {
     margin: 0 auto;
     height: 100vh;
     width: 100%;
-    background-image: url("assets/windows_98_clouds_background.jpg");
+    background-image: url("../assets/windows_98_clouds_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -125,7 +125,7 @@ html, body {
 }
 
 .menu-windows-text-container {
-    background-image: url("assets/windows-98-start-menu.png");
+    background-image: url("../assets/windows-98-start-menu.png");
     background-size: 100% 100%;
     display: flex;
     text-align: center;
