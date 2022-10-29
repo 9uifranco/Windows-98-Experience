@@ -125,7 +125,7 @@ html, body {
 }
 
 .menu-windows-text-container {
-    background-image: url("Windows-98-Experience/assets/windows-98-start-menu.png");
+    background-image: url("../../assets/windows-98-start-menu.png");
     background-size: 100% 100%;
     display: flex;
     text-align: center;
